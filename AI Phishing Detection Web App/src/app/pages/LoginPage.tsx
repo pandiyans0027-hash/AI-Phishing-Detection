@@ -9,6 +9,7 @@ import { toast } from 'sonner';
 export function LoginPage() {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
+  
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
